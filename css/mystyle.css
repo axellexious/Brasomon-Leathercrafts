@@ -1,0 +1,53 @@
+@font-face{
+    font-family: Montserrat-Regular;
+    src: url(../fonts/Montserrat-Regular.otf);
+}
+@font-face{
+    font-family: Courier-New;
+    src: url(../fonts/Courier-New.ttf);
+}
+@font-face{
+    font-family: Vollkorn-Regular;
+    src: url(../fonts/Vollkorn-Regular.ttf);
+}
+.checked{
+    color: orange;
+}
+#backgroundPic{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/bg.jpg);
+    background-size: cover;
+}
+#jumbotron{
+    background-color: rgba(0, 0, 0, 0);
+}
+#backgroundColor{
+    background-color: #F7D3AA;
+}
+#mainNavBar , #footerEIndex{
+    background-color: #9F7159;
+}
+#footerEIndex{
+    font-family: Montserrat-Regular;
+}
+#breadCrumbs{
+    background-color: #F7D3AA;
+    font-family: Courier-New;
+}
+#secNavBar{
+    background-color: #D0814E;
+}
+#card{
+    background-color: #DF9D6C ;
+}
+#homeNavBar , #mainNavBar , #secNavBar , #buttons{
+    font-family: Vollkorn-Regular;
+}
+#mainText{
+    font-family: Montserrat-Regular;
+}
+#secText{
+    font-family: Courier-New;
+}
+#buttons{
+    background-color: teal;
+}
